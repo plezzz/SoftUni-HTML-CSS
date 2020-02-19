@@ -1,0 +1,6 @@
+/** Use **font-family: Helvetica, sans-serif**, with **font-size: 16px** and **line-height: 1.5***/
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
