@@ -1,0 +1,94 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    background: rgb(238, 238, 238);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+p.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+img {
+    border: 3px solid black;
+    padding: 5px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+blockquote {
+    border-left: 1px solid silver;
+    float: right;
+    width: 40%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+blockquote p {
+    margin-top: 1em;
+    font-family: Georgia, serif;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+
+.header-nav, p.site-title {
+    display: inline-block;
+}
+
+.header-nav li {
+    margin: 0 0 0 3rem;
+    display: inline-block;
+}
+
+.header-nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2em;
+}
+
+.header-nav a {
+    color: rgb(0, 102, 0);
+}
