@@ -1,0 +1,33 @@
+body {
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, aside, footer {
+    border-radius: 0.4em;
+    background:white;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    padding: 2em;
+    margin: 1em;
+    flex: 1 1 auto;
+}
+
+header{
+    flex: 1 0 7em;
+}
+ .container{
+     display: flex;
+     flex: 1 1 20em;
+ }
+main {
+    flex: 1 1 60em;
+}
+
+aside {
+    flex: 1 1 30em;
+}
+
+footer{
+    flex: 1 1 5em;
+}
